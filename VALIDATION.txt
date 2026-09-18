@@ -1,0 +1,14 @@
+Modern Palette 1000 — Validation Report
+
+Families: 40
+Shades per family: 25
+Total unique HEX colors: 1000
+Theme categories: 10
+Themes per category: 25
+Total themes: 250
+Theme color slots: 1000
+Invalid theme references: 0
+Exact white: #FFFFFF
+Exact black: #000000
+All theme slots reference palette variables only: YES
+External CSS/JS dependencies in preview.html: NO

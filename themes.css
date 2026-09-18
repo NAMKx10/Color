@@ -1,0 +1,2308 @@
+/*!
+ * Modern Palette 1000 — v1.0.0
+ * 1000 unique web colors + 250 four-color theme mixes
+ * License: MIT
+ * Naming: --mp-{family}-{shade}
+ */
+
+/* 250 themes — every color is referenced from the 1000-color palette. */
+
+
+/* ========================================================
+   LIGHT THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Mist */
+.mp-theme-light-01,
+.mp-theme-light-ocean-mist {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-blue-750);
+  --mp-theme-accent: var(--mp-cyan-500);
+}
+
+/* 02. Quiet Grove */
+.mp-theme-light-02,
+.mp-theme-light-quiet-grove {
+  --mp-theme-bg: var(--mp-ivory-075);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-emerald-700);
+  --mp-theme-accent: var(--mp-rose-500);
+}
+
+/* 03. Modern Air */
+.mp-theme-light-03,
+.mp-theme-light-modern-air {
+  --mp-theme-bg: var(--mp-cream-100);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-burgundy-825);
+  --mp-theme-accent: var(--mp-coral-500);
+}
+
+/* 04. Velvet Glass */
+.mp-theme-light-04,
+.mp-theme-light-velvet-glass {
+  --mp-theme-bg: var(--mp-sand-025);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-royal-blue-800);
+  --mp-theme-accent: var(--mp-lime-500);
+}
+
+/* 05. Nordic Bloom */
+.mp-theme-light-05,
+.mp-theme-light-nordic-bloom {
+  --mp-theme-bg: var(--mp-sky-050);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-navy-750);
+  --mp-theme-accent: var(--mp-amber-500);
+}
+
+/* 06. Urban Lagoon */
+.mp-theme-light-06,
+.mp-theme-light-urban-lagoon {
+  --mp-theme-bg: var(--mp-mint-075);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-green-700);
+  --mp-theme-accent: var(--mp-gold-500);
+}
+
+/* 07. Pure Dune */
+.mp-theme-light-07,
+.mp-theme-light-pure-dune {
+  --mp-theme-bg: var(--mp-rose-100);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-teal-825);
+  --mp-theme-accent: var(--mp-sky-500);
+}
+
+/* 08. Soft Field */
+.mp-theme-light-08,
+.mp-theme-light-soft-field {
+  --mp-theme-bg: var(--mp-sage-025);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-purple-800);
+  --mp-theme-accent: var(--mp-mint-500);
+}
+
+/* 09. Deep Noir */
+.mp-theme-light-09,
+.mp-theme-light-deep-noir {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-blue-750);
+  --mp-theme-accent: var(--mp-cyan-500);
+}
+
+/* 10. Royal Echo */
+.mp-theme-light-10,
+.mp-theme-light-royal-echo {
+  --mp-theme-bg: var(--mp-ivory-075);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-emerald-700);
+  --mp-theme-accent: var(--mp-rose-500);
+}
+
+/* 11. Calm Ink */
+.mp-theme-light-11,
+.mp-theme-light-calm-ink {
+  --mp-theme-bg: var(--mp-cream-100);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-burgundy-825);
+  --mp-theme-accent: var(--mp-coral-500);
+}
+
+/* 12. Studio Slate */
+.mp-theme-light-12,
+.mp-theme-light-studio-slate {
+  --mp-theme-bg: var(--mp-sand-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-royal-blue-800);
+  --mp-theme-accent: var(--mp-lime-500);
+}
+
+/* 13. Silk Crown */
+.mp-theme-light-13,
+.mp-theme-light-silk-crown {
+  --mp-theme-bg: var(--mp-sky-050);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-navy-750);
+  --mp-theme-accent: var(--mp-amber-500);
+}
+
+/* 14. Stone Vale */
+.mp-theme-light-14,
+.mp-theme-light-stone-vale {
+  --mp-theme-bg: var(--mp-mint-075);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-green-700);
+  --mp-theme-accent: var(--mp-gold-500);
+}
+
+/* 15. Cloud Veil */
+.mp-theme-light-15,
+.mp-theme-light-cloud-veil {
+  --mp-theme-bg: var(--mp-rose-100);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-teal-825);
+  --mp-theme-accent: var(--mp-sky-500);
+}
+
+/* 16. Moon Linen */
+.mp-theme-light-16,
+.mp-theme-light-moon-linen {
+  --mp-theme-bg: var(--mp-sage-025);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-purple-800);
+  --mp-theme-accent: var(--mp-mint-500);
+}
+
+/* 17. Forest Gold */
+.mp-theme-light-17,
+.mp-theme-light-forest-gold {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-blue-750);
+  --mp-theme-accent: var(--mp-cyan-500);
+}
+
+/* 18. Desert Glow */
+.mp-theme-light-18,
+.mp-theme-light-desert-glow {
+  --mp-theme-bg: var(--mp-ivory-075);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-emerald-700);
+  --mp-theme-accent: var(--mp-rose-500);
+}
+
+/* 19. Coastal Horizon */
+.mp-theme-light-19,
+.mp-theme-light-coastal-horizon {
+  --mp-theme-bg: var(--mp-cream-100);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-burgundy-825);
+  --mp-theme-accent: var(--mp-coral-500);
+}
+
+/* 20. Amber Dawn */
+.mp-theme-light-20,
+.mp-theme-light-amber-dawn {
+  --mp-theme-bg: var(--mp-sand-025);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-royal-blue-800);
+  --mp-theme-accent: var(--mp-lime-500);
+}
+
+/* 21. Midnight Ember */
+.mp-theme-light-21,
+.mp-theme-light-midnight-ember {
+  --mp-theme-bg: var(--mp-sky-050);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-navy-750);
+  --mp-theme-accent: var(--mp-amber-500);
+}
+
+/* 22. Pearl Wood */
+.mp-theme-light-22,
+.mp-theme-light-pearl-wood {
+  --mp-theme-bg: var(--mp-mint-075);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-green-700);
+  --mp-theme-accent: var(--mp-gold-500);
+}
+
+/* 23. Cedar Harbor */
+.mp-theme-light-23,
+.mp-theme-light-cedar-harbor {
+  --mp-theme-bg: var(--mp-rose-100);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-teal-825);
+  --mp-theme-accent: var(--mp-sky-500);
+}
+
+/* 24. Mist Canvas */
+.mp-theme-light-24,
+.mp-theme-light-mist-canvas {
+  --mp-theme-bg: var(--mp-sage-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-purple-800);
+  --mp-theme-accent: var(--mp-mint-500);
+}
+
+/* 25. Aurora Tide */
+.mp-theme-light-25,
+.mp-theme-light-aurora-tide {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-blue-750);
+  --mp-theme-accent: var(--mp-cyan-500);
+}
+
+
+/* ========================================================
+   DARK THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Bloom */
+.mp-theme-dark-01,
+.mp-theme-dark-ocean-bloom {
+  --mp-theme-bg: var(--mp-charcoal-950);
+  --mp-theme-surface: var(--mp-black-875);
+  --mp-theme-primary: var(--mp-royal-blue-400);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 02. Quiet Lagoon */
+.mp-theme-dark-02,
+.mp-theme-dark-quiet-lagoon {
+  --mp-theme-bg: var(--mp-navy-975);
+  --mp-theme-surface: var(--mp-navy-925);
+  --mp-theme-primary: var(--mp-violet-350);
+  --mp-theme-accent: var(--mp-pink-400);
+}
+
+/* 03. Modern Dune */
+.mp-theme-dark-03,
+.mp-theme-dark-modern-dune {
+  --mp-theme-bg: var(--mp-slate-925);
+  --mp-theme-surface: var(--mp-charcoal-875);
+  --mp-theme-primary: var(--mp-cyan-500);
+  --mp-theme-accent: var(--mp-coral-400);
+}
+
+/* 04. Velvet Field */
+.mp-theme-dark-04,
+.mp-theme-dark-velvet-field {
+  --mp-theme-bg: var(--mp-cocoa-950);
+  --mp-theme-surface: var(--mp-slate-925);
+  --mp-theme-primary: var(--mp-teal-450);
+  --mp-theme-accent: var(--mp-sky-400);
+}
+
+/* 05. Nordic Noir */
+.mp-theme-dark-05,
+.mp-theme-dark-nordic-noir {
+  --mp-theme-bg: var(--mp-burgundy-975);
+  --mp-theme-surface: var(--mp-zinc-875);
+  --mp-theme-primary: var(--mp-gold-400);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 06. Urban Echo */
+.mp-theme-dark-06,
+.mp-theme-dark-urban-echo {
+  --mp-theme-bg: var(--mp-indigo-925);
+  --mp-theme-surface: var(--mp-black-925);
+  --mp-theme-primary: var(--mp-blue-350);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 07. Pure Ink */
+.mp-theme-dark-07,
+.mp-theme-dark-pure-ink {
+  --mp-theme-bg: var(--mp-black-950);
+  --mp-theme-surface: var(--mp-navy-875);
+  --mp-theme-primary: var(--mp-emerald-500);
+  --mp-theme-accent: var(--mp-lime-400);
+}
+
+/* 08. Soft Slate */
+.mp-theme-dark-08,
+.mp-theme-dark-soft-slate {
+  --mp-theme-bg: var(--mp-charcoal-975);
+  --mp-theme-surface: var(--mp-charcoal-925);
+  --mp-theme-primary: var(--mp-rose-450);
+  --mp-theme-accent: var(--mp-aqua-400);
+}
+
+/* 09. Deep Crown */
+.mp-theme-dark-09,
+.mp-theme-dark-deep-crown {
+  --mp-theme-bg: var(--mp-navy-925);
+  --mp-theme-surface: var(--mp-slate-875);
+  --mp-theme-primary: var(--mp-royal-blue-400);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 10. Royal Vale */
+.mp-theme-dark-10,
+.mp-theme-dark-royal-vale {
+  --mp-theme-bg: var(--mp-slate-950);
+  --mp-theme-surface: var(--mp-zinc-925);
+  --mp-theme-primary: var(--mp-violet-350);
+  --mp-theme-accent: var(--mp-pink-400);
+}
+
+/* 11. Calm Veil */
+.mp-theme-dark-11,
+.mp-theme-dark-calm-veil {
+  --mp-theme-bg: var(--mp-cocoa-975);
+  --mp-theme-surface: var(--mp-black-875);
+  --mp-theme-primary: var(--mp-cyan-500);
+  --mp-theme-accent: var(--mp-coral-400);
+}
+
+/* 12. Studio Linen */
+.mp-theme-dark-12,
+.mp-theme-dark-studio-linen {
+  --mp-theme-bg: var(--mp-burgundy-925);
+  --mp-theme-surface: var(--mp-navy-925);
+  --mp-theme-primary: var(--mp-teal-450);
+  --mp-theme-accent: var(--mp-sky-400);
+}
+
+/* 13. Silk Gold */
+.mp-theme-dark-13,
+.mp-theme-dark-silk-gold {
+  --mp-theme-bg: var(--mp-indigo-950);
+  --mp-theme-surface: var(--mp-charcoal-875);
+  --mp-theme-primary: var(--mp-gold-400);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 14. Stone Glow */
+.mp-theme-dark-14,
+.mp-theme-dark-stone-glow {
+  --mp-theme-bg: var(--mp-black-975);
+  --mp-theme-surface: var(--mp-slate-925);
+  --mp-theme-primary: var(--mp-blue-350);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 15. Cloud Horizon */
+.mp-theme-dark-15,
+.mp-theme-dark-cloud-horizon {
+  --mp-theme-bg: var(--mp-charcoal-925);
+  --mp-theme-surface: var(--mp-zinc-875);
+  --mp-theme-primary: var(--mp-emerald-500);
+  --mp-theme-accent: var(--mp-lime-400);
+}
+
+/* 16. Moon Dawn */
+.mp-theme-dark-16,
+.mp-theme-dark-moon-dawn {
+  --mp-theme-bg: var(--mp-navy-950);
+  --mp-theme-surface: var(--mp-black-925);
+  --mp-theme-primary: var(--mp-rose-450);
+  --mp-theme-accent: var(--mp-aqua-400);
+}
+
+/* 17. Forest Ember */
+.mp-theme-dark-17,
+.mp-theme-dark-forest-ember {
+  --mp-theme-bg: var(--mp-slate-975);
+  --mp-theme-surface: var(--mp-navy-875);
+  --mp-theme-primary: var(--mp-royal-blue-400);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 18. Desert Wood */
+.mp-theme-dark-18,
+.mp-theme-dark-desert-wood {
+  --mp-theme-bg: var(--mp-cocoa-925);
+  --mp-theme-surface: var(--mp-charcoal-925);
+  --mp-theme-primary: var(--mp-violet-350);
+  --mp-theme-accent: var(--mp-pink-400);
+}
+
+/* 19. Coastal Harbor */
+.mp-theme-dark-19,
+.mp-theme-dark-coastal-harbor {
+  --mp-theme-bg: var(--mp-burgundy-950);
+  --mp-theme-surface: var(--mp-slate-875);
+  --mp-theme-primary: var(--mp-cyan-500);
+  --mp-theme-accent: var(--mp-coral-400);
+}
+
+/* 20. Amber Canvas */
+.mp-theme-dark-20,
+.mp-theme-dark-amber-canvas {
+  --mp-theme-bg: var(--mp-indigo-975);
+  --mp-theme-surface: var(--mp-zinc-925);
+  --mp-theme-primary: var(--mp-teal-450);
+  --mp-theme-accent: var(--mp-sky-400);
+}
+
+/* 21. Midnight Tide */
+.mp-theme-dark-21,
+.mp-theme-dark-midnight-tide {
+  --mp-theme-bg: var(--mp-black-925);
+  --mp-theme-surface: var(--mp-black-875);
+  --mp-theme-primary: var(--mp-gold-400);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 22. Pearl Mist */
+.mp-theme-dark-22,
+.mp-theme-dark-pearl-mist {
+  --mp-theme-bg: var(--mp-charcoal-950);
+  --mp-theme-surface: var(--mp-navy-925);
+  --mp-theme-primary: var(--mp-blue-350);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 23. Cedar Grove */
+.mp-theme-dark-23,
+.mp-theme-dark-cedar-grove {
+  --mp-theme-bg: var(--mp-navy-975);
+  --mp-theme-surface: var(--mp-charcoal-875);
+  --mp-theme-primary: var(--mp-emerald-500);
+  --mp-theme-accent: var(--mp-lime-400);
+}
+
+/* 24. Mist Air */
+.mp-theme-dark-24,
+.mp-theme-dark-mist-air {
+  --mp-theme-bg: var(--mp-slate-925);
+  --mp-theme-surface: var(--mp-slate-925);
+  --mp-theme-primary: var(--mp-rose-450);
+  --mp-theme-accent: var(--mp-aqua-400);
+}
+
+/* 25. Aurora Glass */
+.mp-theme-dark-25,
+.mp-theme-dark-aurora-glass {
+  --mp-theme-bg: var(--mp-cocoa-950);
+  --mp-theme-surface: var(--mp-zinc-875);
+  --mp-theme-primary: var(--mp-royal-blue-400);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+
+/* ========================================================
+   LUXURY THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Noir */
+.mp-theme-luxury-01,
+.mp-theme-luxury-ocean-noir {
+  --mp-theme-bg: var(--mp-burgundy-950);
+  --mp-theme-surface: var(--mp-cocoa-850);
+  --mp-theme-primary: var(--mp-ivory-450);
+  --mp-theme-accent: var(--mp-gold-300);
+}
+
+/* 02. Quiet Echo */
+.mp-theme-luxury-02,
+.mp-theme-luxury-quiet-echo {
+  --mp-theme-bg: var(--mp-navy-975);
+  --mp-theme-surface: var(--mp-burgundy-900);
+  --mp-theme-primary: var(--mp-gold-600);
+  --mp-theme-accent: var(--mp-cream-250);
+}
+
+/* 03. Modern Ink */
+.mp-theme-luxury-03,
+.mp-theme-luxury-modern-ink {
+  --mp-theme-bg: var(--mp-emerald-925);
+  --mp-theme-surface: var(--mp-charcoal-850);
+  --mp-theme-primary: var(--mp-gold-500);
+  --mp-theme-accent: var(--mp-ivory-200);
+}
+
+/* 04. Velvet Slate */
+.mp-theme-luxury-04,
+.mp-theme-luxury-velvet-slate {
+  --mp-theme-bg: var(--mp-purple-950);
+  --mp-theme-surface: var(--mp-navy-900);
+  --mp-theme-primary: var(--mp-gold-400);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 05. Nordic Crown */
+.mp-theme-luxury-05,
+.mp-theme-luxury-nordic-crown {
+  --mp-theme-bg: var(--mp-charcoal-975);
+  --mp-theme-surface: var(--mp-black-850);
+  --mp-theme-primary: var(--mp-sand-550);
+  --mp-theme-accent: var(--mp-mauve-350);
+}
+
+/* 06. Urban Vale */
+.mp-theme-luxury-06,
+.mp-theme-luxury-urban-vale {
+  --mp-theme-bg: var(--mp-black-925);
+  --mp-theme-surface: var(--mp-cocoa-900);
+  --mp-theme-primary: var(--mp-ivory-450);
+  --mp-theme-accent: var(--mp-rose-300);
+}
+
+/* 07. Pure Veil */
+.mp-theme-luxury-07,
+.mp-theme-luxury-pure-veil {
+  --mp-theme-bg: var(--mp-cocoa-950);
+  --mp-theme-surface: var(--mp-burgundy-850);
+  --mp-theme-primary: var(--mp-gold-600);
+  --mp-theme-accent: var(--mp-gold-250);
+}
+
+/* 08. Soft Linen */
+.mp-theme-luxury-08,
+.mp-theme-luxury-soft-linen {
+  --mp-theme-bg: var(--mp-burgundy-975);
+  --mp-theme-surface: var(--mp-charcoal-900);
+  --mp-theme-primary: var(--mp-gold-500);
+  --mp-theme-accent: var(--mp-cream-200);
+}
+
+/* 09. Deep Gold */
+.mp-theme-luxury-09,
+.mp-theme-luxury-deep-gold {
+  --mp-theme-bg: var(--mp-navy-925);
+  --mp-theme-surface: var(--mp-navy-850);
+  --mp-theme-primary: var(--mp-gold-400);
+  --mp-theme-accent: var(--mp-ivory-400);
+}
+
+/* 10. Royal Glow */
+.mp-theme-luxury-10,
+.mp-theme-luxury-royal-glow {
+  --mp-theme-bg: var(--mp-emerald-950);
+  --mp-theme-surface: var(--mp-black-900);
+  --mp-theme-primary: var(--mp-sand-550);
+  --mp-theme-accent: var(--mp-amber-350);
+}
+
+/* 11. Calm Horizon */
+.mp-theme-luxury-11,
+.mp-theme-luxury-calm-horizon {
+  --mp-theme-bg: var(--mp-purple-975);
+  --mp-theme-surface: var(--mp-cocoa-850);
+  --mp-theme-primary: var(--mp-ivory-450);
+  --mp-theme-accent: var(--mp-mauve-300);
+}
+
+/* 12. Studio Dawn */
+.mp-theme-luxury-12,
+.mp-theme-luxury-studio-dawn {
+  --mp-theme-bg: var(--mp-charcoal-925);
+  --mp-theme-surface: var(--mp-burgundy-900);
+  --mp-theme-primary: var(--mp-gold-600);
+  --mp-theme-accent: var(--mp-rose-250);
+}
+
+/* 13. Silk Ember */
+.mp-theme-luxury-13,
+.mp-theme-luxury-silk-ember {
+  --mp-theme-bg: var(--mp-black-950);
+  --mp-theme-surface: var(--mp-charcoal-850);
+  --mp-theme-primary: var(--mp-gold-500);
+  --mp-theme-accent: var(--mp-gold-200);
+}
+
+/* 14. Stone Wood */
+.mp-theme-luxury-14,
+.mp-theme-luxury-stone-wood {
+  --mp-theme-bg: var(--mp-cocoa-975);
+  --mp-theme-surface: var(--mp-navy-900);
+  --mp-theme-primary: var(--mp-gold-400);
+  --mp-theme-accent: var(--mp-cream-400);
+}
+
+/* 15. Cloud Harbor */
+.mp-theme-luxury-15,
+.mp-theme-luxury-cloud-harbor {
+  --mp-theme-bg: var(--mp-burgundy-925);
+  --mp-theme-surface: var(--mp-black-850);
+  --mp-theme-primary: var(--mp-sand-550);
+  --mp-theme-accent: var(--mp-ivory-350);
+}
+
+/* 16. Moon Canvas */
+.mp-theme-luxury-16,
+.mp-theme-luxury-moon-canvas {
+  --mp-theme-bg: var(--mp-navy-950);
+  --mp-theme-surface: var(--mp-cocoa-900);
+  --mp-theme-primary: var(--mp-ivory-450);
+  --mp-theme-accent: var(--mp-amber-300);
+}
+
+/* 17. Forest Tide */
+.mp-theme-luxury-17,
+.mp-theme-luxury-forest-tide {
+  --mp-theme-bg: var(--mp-emerald-975);
+  --mp-theme-surface: var(--mp-burgundy-850);
+  --mp-theme-primary: var(--mp-gold-600);
+  --mp-theme-accent: var(--mp-mauve-250);
+}
+
+/* 18. Desert Mist */
+.mp-theme-luxury-18,
+.mp-theme-luxury-desert-mist {
+  --mp-theme-bg: var(--mp-purple-925);
+  --mp-theme-surface: var(--mp-charcoal-900);
+  --mp-theme-primary: var(--mp-gold-500);
+  --mp-theme-accent: var(--mp-rose-200);
+}
+
+/* 19. Coastal Grove */
+.mp-theme-luxury-19,
+.mp-theme-luxury-coastal-grove {
+  --mp-theme-bg: var(--mp-charcoal-950);
+  --mp-theme-surface: var(--mp-navy-850);
+  --mp-theme-primary: var(--mp-gold-400);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 20. Amber Air */
+.mp-theme-luxury-20,
+.mp-theme-luxury-amber-air {
+  --mp-theme-bg: var(--mp-black-975);
+  --mp-theme-surface: var(--mp-black-900);
+  --mp-theme-primary: var(--mp-sand-550);
+  --mp-theme-accent: var(--mp-cream-350);
+}
+
+/* 21. Midnight Glass */
+.mp-theme-luxury-21,
+.mp-theme-luxury-midnight-glass {
+  --mp-theme-bg: var(--mp-cocoa-925);
+  --mp-theme-surface: var(--mp-cocoa-850);
+  --mp-theme-primary: var(--mp-ivory-450);
+  --mp-theme-accent: var(--mp-ivory-300);
+}
+
+/* 22. Pearl Bloom */
+.mp-theme-luxury-22,
+.mp-theme-luxury-pearl-bloom {
+  --mp-theme-bg: var(--mp-burgundy-950);
+  --mp-theme-surface: var(--mp-burgundy-900);
+  --mp-theme-primary: var(--mp-gold-600);
+  --mp-theme-accent: var(--mp-amber-250);
+}
+
+/* 23. Cedar Lagoon */
+.mp-theme-luxury-23,
+.mp-theme-luxury-cedar-lagoon {
+  --mp-theme-bg: var(--mp-navy-975);
+  --mp-theme-surface: var(--mp-charcoal-850);
+  --mp-theme-primary: var(--mp-gold-500);
+  --mp-theme-accent: var(--mp-mauve-200);
+}
+
+/* 24. Mist Dune */
+.mp-theme-luxury-24,
+.mp-theme-luxury-mist-dune {
+  --mp-theme-bg: var(--mp-emerald-925);
+  --mp-theme-surface: var(--mp-navy-900);
+  --mp-theme-primary: var(--mp-gold-400);
+  --mp-theme-accent: var(--mp-rose-400);
+}
+
+/* 25. Aurora Field */
+.mp-theme-luxury-25,
+.mp-theme-luxury-aurora-field {
+  --mp-theme-bg: var(--mp-purple-950);
+  --mp-theme-surface: var(--mp-black-850);
+  --mp-theme-primary: var(--mp-sand-550);
+  --mp-theme-accent: var(--mp-gold-350);
+}
+
+
+/* ========================================================
+   ROYAL THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Crown */
+.mp-theme-royal-01,
+.mp-theme-royal-ocean-crown {
+  --mp-theme-bg: var(--mp-burgundy-875);
+  --mp-theme-surface: var(--mp-burgundy-800);
+  --mp-theme-primary: var(--mp-burgundy-500);
+  --mp-theme-accent: var(--mp-rose-400);
+}
+
+/* 02. Quiet Vale */
+.mp-theme-royal-02,
+.mp-theme-royal-quiet-vale {
+  --mp-theme-bg: var(--mp-emerald-900);
+  --mp-theme-surface: var(--mp-indigo-850);
+  --mp-theme-primary: var(--mp-royal-blue-450);
+  --mp-theme-accent: var(--mp-cyan-400);
+}
+
+/* 03. Modern Veil */
+.mp-theme-royal-03,
+.mp-theme-royal-modern-veil {
+  --mp-theme-bg: var(--mp-indigo-925);
+  --mp-theme-surface: var(--mp-royal-blue-800);
+  --mp-theme-primary: var(--mp-burgundy-600);
+  --mp-theme-accent: var(--mp-ivory-400);
+}
+
+/* 04. Velvet Linen */
+.mp-theme-royal-04,
+.mp-theme-royal-velvet-linen {
+  --mp-theme-bg: var(--mp-navy-850);
+  --mp-theme-surface: var(--mp-burgundy-850);
+  --mp-theme-primary: var(--mp-royal-blue-550);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 05. Nordic Gold */
+.mp-theme-royal-05,
+.mp-theme-royal-nordic-gold {
+  --mp-theme-bg: var(--mp-royal-blue-875);
+  --mp-theme-surface: var(--mp-indigo-800);
+  --mp-theme-primary: var(--mp-burgundy-500);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 06. Urban Glow */
+.mp-theme-royal-06,
+.mp-theme-royal-urban-glow {
+  --mp-theme-bg: var(--mp-purple-900);
+  --mp-theme-surface: var(--mp-royal-blue-850);
+  --mp-theme-primary: var(--mp-royal-blue-450);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 07. Pure Horizon */
+.mp-theme-royal-07,
+.mp-theme-royal-pure-horizon {
+  --mp-theme-bg: var(--mp-burgundy-925);
+  --mp-theme-surface: var(--mp-burgundy-800);
+  --mp-theme-primary: var(--mp-burgundy-600);
+  --mp-theme-accent: var(--mp-rose-400);
+}
+
+/* 08. Soft Dawn */
+.mp-theme-royal-08,
+.mp-theme-royal-soft-dawn {
+  --mp-theme-bg: var(--mp-emerald-850);
+  --mp-theme-surface: var(--mp-indigo-850);
+  --mp-theme-primary: var(--mp-royal-blue-550);
+  --mp-theme-accent: var(--mp-cyan-400);
+}
+
+/* 09. Deep Ember */
+.mp-theme-royal-09,
+.mp-theme-royal-deep-ember {
+  --mp-theme-bg: var(--mp-indigo-875);
+  --mp-theme-surface: var(--mp-royal-blue-800);
+  --mp-theme-primary: var(--mp-burgundy-500);
+  --mp-theme-accent: var(--mp-ivory-400);
+}
+
+/* 10. Royal Wood */
+.mp-theme-royal-10,
+.mp-theme-royal-royal-wood {
+  --mp-theme-bg: var(--mp-navy-900);
+  --mp-theme-surface: var(--mp-burgundy-850);
+  --mp-theme-primary: var(--mp-royal-blue-450);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 11. Calm Harbor */
+.mp-theme-royal-11,
+.mp-theme-royal-calm-harbor {
+  --mp-theme-bg: var(--mp-royal-blue-925);
+  --mp-theme-surface: var(--mp-indigo-800);
+  --mp-theme-primary: var(--mp-burgundy-600);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 12. Studio Canvas */
+.mp-theme-royal-12,
+.mp-theme-royal-studio-canvas {
+  --mp-theme-bg: var(--mp-purple-850);
+  --mp-theme-surface: var(--mp-royal-blue-850);
+  --mp-theme-primary: var(--mp-royal-blue-550);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 13. Silk Tide */
+.mp-theme-royal-13,
+.mp-theme-royal-silk-tide {
+  --mp-theme-bg: var(--mp-burgundy-875);
+  --mp-theme-surface: var(--mp-burgundy-800);
+  --mp-theme-primary: var(--mp-burgundy-500);
+  --mp-theme-accent: var(--mp-rose-400);
+}
+
+/* 14. Stone Mist */
+.mp-theme-royal-14,
+.mp-theme-royal-stone-mist {
+  --mp-theme-bg: var(--mp-emerald-900);
+  --mp-theme-surface: var(--mp-indigo-850);
+  --mp-theme-primary: var(--mp-royal-blue-450);
+  --mp-theme-accent: var(--mp-cyan-400);
+}
+
+/* 15. Cloud Grove */
+.mp-theme-royal-15,
+.mp-theme-royal-cloud-grove {
+  --mp-theme-bg: var(--mp-indigo-925);
+  --mp-theme-surface: var(--mp-royal-blue-800);
+  --mp-theme-primary: var(--mp-burgundy-600);
+  --mp-theme-accent: var(--mp-ivory-400);
+}
+
+/* 16. Moon Air */
+.mp-theme-royal-16,
+.mp-theme-royal-moon-air {
+  --mp-theme-bg: var(--mp-navy-850);
+  --mp-theme-surface: var(--mp-burgundy-850);
+  --mp-theme-primary: var(--mp-royal-blue-550);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 17. Forest Glass */
+.mp-theme-royal-17,
+.mp-theme-royal-forest-glass {
+  --mp-theme-bg: var(--mp-royal-blue-875);
+  --mp-theme-surface: var(--mp-indigo-800);
+  --mp-theme-primary: var(--mp-burgundy-500);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 18. Desert Bloom */
+.mp-theme-royal-18,
+.mp-theme-royal-desert-bloom {
+  --mp-theme-bg: var(--mp-purple-900);
+  --mp-theme-surface: var(--mp-royal-blue-850);
+  --mp-theme-primary: var(--mp-royal-blue-450);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 19. Coastal Lagoon */
+.mp-theme-royal-19,
+.mp-theme-royal-coastal-lagoon {
+  --mp-theme-bg: var(--mp-burgundy-925);
+  --mp-theme-surface: var(--mp-burgundy-800);
+  --mp-theme-primary: var(--mp-burgundy-600);
+  --mp-theme-accent: var(--mp-rose-400);
+}
+
+/* 20. Amber Dune */
+.mp-theme-royal-20,
+.mp-theme-royal-amber-dune {
+  --mp-theme-bg: var(--mp-emerald-850);
+  --mp-theme-surface: var(--mp-indigo-850);
+  --mp-theme-primary: var(--mp-royal-blue-550);
+  --mp-theme-accent: var(--mp-cyan-400);
+}
+
+/* 21. Midnight Field */
+.mp-theme-royal-21,
+.mp-theme-royal-midnight-field {
+  --mp-theme-bg: var(--mp-indigo-875);
+  --mp-theme-surface: var(--mp-royal-blue-800);
+  --mp-theme-primary: var(--mp-burgundy-500);
+  --mp-theme-accent: var(--mp-ivory-400);
+}
+
+/* 22. Pearl Noir */
+.mp-theme-royal-22,
+.mp-theme-royal-pearl-noir {
+  --mp-theme-bg: var(--mp-navy-900);
+  --mp-theme-surface: var(--mp-burgundy-850);
+  --mp-theme-primary: var(--mp-royal-blue-450);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 23. Cedar Echo */
+.mp-theme-royal-23,
+.mp-theme-royal-cedar-echo {
+  --mp-theme-bg: var(--mp-royal-blue-925);
+  --mp-theme-surface: var(--mp-indigo-800);
+  --mp-theme-primary: var(--mp-burgundy-600);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 24. Mist Ink */
+.mp-theme-royal-24,
+.mp-theme-royal-mist-ink {
+  --mp-theme-bg: var(--mp-purple-850);
+  --mp-theme-surface: var(--mp-royal-blue-850);
+  --mp-theme-primary: var(--mp-royal-blue-550);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 25. Aurora Slate */
+.mp-theme-royal-25,
+.mp-theme-royal-aurora-slate {
+  --mp-theme-bg: var(--mp-burgundy-875);
+  --mp-theme-surface: var(--mp-burgundy-800);
+  --mp-theme-primary: var(--mp-burgundy-500);
+  --mp-theme-accent: var(--mp-rose-400);
+}
+
+
+/* ========================================================
+   CORPORATE THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Gold */
+.mp-theme-corporate-01,
+.mp-theme-corporate-ocean-gold {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-slate-750);
+  --mp-theme-accent: var(--mp-aqua-550);
+}
+
+/* 02. Quiet Glow */
+.mp-theme-corporate-02,
+.mp-theme-corporate-quiet-glow {
+  --mp-theme-bg: var(--mp-gray-075);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-blue-850);
+  --mp-theme-accent: var(--mp-orange-550);
+}
+
+/* 03. Modern Horizon */
+.mp-theme-corporate-03,
+.mp-theme-corporate-modern-horizon {
+  --mp-theme-bg: var(--mp-slate-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-slate-800);
+  --mp-theme-accent: var(--mp-gold-550);
+}
+
+/* 04. Velvet Dawn */
+.mp-theme-corporate-04,
+.mp-theme-corporate-velvet-dawn {
+  --mp-theme-bg: var(--mp-ivory-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-blue-700);
+  --mp-theme-accent: var(--mp-sky-550);
+}
+
+/* 05. Nordic Ember */
+.mp-theme-corporate-05,
+.mp-theme-corporate-nordic-ember {
+  --mp-theme-bg: var(--mp-snow-075);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-slate-825);
+  --mp-theme-accent: var(--mp-cyan-550);
+}
+
+/* 06. Urban Wood */
+.mp-theme-corporate-06,
+.mp-theme-corporate-urban-wood {
+  --mp-theme-bg: var(--mp-gray-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-blue-750);
+  --mp-theme-accent: var(--mp-green-550);
+}
+
+/* 07. Pure Harbor */
+.mp-theme-corporate-07,
+.mp-theme-corporate-pure-harbor {
+  --mp-theme-bg: var(--mp-slate-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-slate-850);
+  --mp-theme-accent: var(--mp-aqua-550);
+}
+
+/* 08. Soft Canvas */
+.mp-theme-corporate-08,
+.mp-theme-corporate-soft-canvas {
+  --mp-theme-bg: var(--mp-ivory-075);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-blue-800);
+  --mp-theme-accent: var(--mp-orange-550);
+}
+
+/* 09. Deep Tide */
+.mp-theme-corporate-09,
+.mp-theme-corporate-deep-tide {
+  --mp-theme-bg: var(--mp-snow-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-slate-700);
+  --mp-theme-accent: var(--mp-gold-550);
+}
+
+/* 10. Royal Mist */
+.mp-theme-corporate-10,
+.mp-theme-corporate-royal-mist {
+  --mp-theme-bg: var(--mp-gray-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-blue-825);
+  --mp-theme-accent: var(--mp-sky-550);
+}
+
+/* 11. Calm Grove */
+.mp-theme-corporate-11,
+.mp-theme-corporate-calm-grove {
+  --mp-theme-bg: var(--mp-slate-075);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-slate-750);
+  --mp-theme-accent: var(--mp-cyan-550);
+}
+
+/* 12. Studio Air */
+.mp-theme-corporate-12,
+.mp-theme-corporate-studio-air {
+  --mp-theme-bg: var(--mp-ivory-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-blue-850);
+  --mp-theme-accent: var(--mp-green-550);
+}
+
+/* 13. Silk Glass */
+.mp-theme-corporate-13,
+.mp-theme-corporate-silk-glass {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-slate-800);
+  --mp-theme-accent: var(--mp-aqua-550);
+}
+
+/* 14. Stone Bloom */
+.mp-theme-corporate-14,
+.mp-theme-corporate-stone-bloom {
+  --mp-theme-bg: var(--mp-gray-075);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-blue-700);
+  --mp-theme-accent: var(--mp-orange-550);
+}
+
+/* 15. Cloud Lagoon */
+.mp-theme-corporate-15,
+.mp-theme-corporate-cloud-lagoon {
+  --mp-theme-bg: var(--mp-slate-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-slate-825);
+  --mp-theme-accent: var(--mp-gold-550);
+}
+
+/* 16. Moon Dune */
+.mp-theme-corporate-16,
+.mp-theme-corporate-moon-dune {
+  --mp-theme-bg: var(--mp-ivory-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-blue-750);
+  --mp-theme-accent: var(--mp-sky-550);
+}
+
+/* 17. Forest Field */
+.mp-theme-corporate-17,
+.mp-theme-corporate-forest-field {
+  --mp-theme-bg: var(--mp-snow-075);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-slate-850);
+  --mp-theme-accent: var(--mp-cyan-550);
+}
+
+/* 18. Desert Noir */
+.mp-theme-corporate-18,
+.mp-theme-corporate-desert-noir {
+  --mp-theme-bg: var(--mp-gray-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-blue-800);
+  --mp-theme-accent: var(--mp-green-550);
+}
+
+/* 19. Coastal Echo */
+.mp-theme-corporate-19,
+.mp-theme-corporate-coastal-echo {
+  --mp-theme-bg: var(--mp-slate-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-slate-700);
+  --mp-theme-accent: var(--mp-aqua-550);
+}
+
+/* 20. Amber Ink */
+.mp-theme-corporate-20,
+.mp-theme-corporate-amber-ink {
+  --mp-theme-bg: var(--mp-ivory-075);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-blue-825);
+  --mp-theme-accent: var(--mp-orange-550);
+}
+
+/* 21. Midnight Slate */
+.mp-theme-corporate-21,
+.mp-theme-corporate-midnight-slate {
+  --mp-theme-bg: var(--mp-snow-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-slate-750);
+  --mp-theme-accent: var(--mp-gold-550);
+}
+
+/* 22. Pearl Crown */
+.mp-theme-corporate-22,
+.mp-theme-corporate-pearl-crown {
+  --mp-theme-bg: var(--mp-gray-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-blue-850);
+  --mp-theme-accent: var(--mp-sky-550);
+}
+
+/* 23. Cedar Vale */
+.mp-theme-corporate-23,
+.mp-theme-corporate-cedar-vale {
+  --mp-theme-bg: var(--mp-slate-075);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-slate-800);
+  --mp-theme-accent: var(--mp-cyan-550);
+}
+
+/* 24. Mist Veil */
+.mp-theme-corporate-24,
+.mp-theme-corporate-mist-veil {
+  --mp-theme-bg: var(--mp-ivory-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-blue-700);
+  --mp-theme-accent: var(--mp-green-550);
+}
+
+/* 25. Aurora Linen */
+.mp-theme-corporate-25,
+.mp-theme-corporate-aurora-linen {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-slate-825);
+  --mp-theme-accent: var(--mp-aqua-550);
+}
+
+
+/* ========================================================
+   SOFT / CALM THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Ember */
+.mp-theme-soft-01,
+.mp-theme-soft-ocean-ember {
+  --mp-theme-bg: var(--mp-mauve-050);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-sage-400);
+}
+
+/* 02. Quiet Wood */
+.mp-theme-soft-02,
+.mp-theme-soft-quiet-wood {
+  --mp-theme-bg: var(--mp-sand-075);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-mauve-650);
+  --mp-theme-accent: var(--mp-coral-400);
+}
+
+/* 03. Modern Harbor */
+.mp-theme-soft-03,
+.mp-theme-soft-modern-harbor {
+  --mp-theme-bg: var(--mp-aqua-100);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-blue-800);
+  --mp-theme-accent: var(--mp-cyan-400);
+}
+
+/* 04. Velvet Canvas */
+.mp-theme-soft-04,
+.mp-theme-soft-velvet-canvas {
+  --mp-theme-bg: var(--mp-rose-025);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-olive-750);
+  --mp-theme-accent: var(--mp-pink-400);
+}
+
+/* 05. Nordic Tide */
+.mp-theme-soft-05,
+.mp-theme-soft-nordic-tide {
+  --mp-theme-bg: var(--mp-mint-050);
+  --mp-theme-surface: var(--mp-ivory-025);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 06. Urban Mist */
+.mp-theme-soft-06,
+.mp-theme-soft-urban-mist {
+  --mp-theme-bg: var(--mp-sage-075);
+  --mp-theme-surface: var(--mp-gray-075);
+  --mp-theme-primary: var(--mp-rose-650);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 07. Pure Grove */
+.mp-theme-soft-07,
+.mp-theme-soft-pure-grove {
+  --mp-theme-bg: var(--mp-sky-100);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-burgundy-800);
+  --mp-theme-accent: var(--mp-sky-400);
+}
+
+/* 08. Soft Air */
+.mp-theme-soft-08,
+.mp-theme-soft-soft-air {
+  --mp-theme-bg: var(--mp-cream-025);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-teal-750);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 09. Deep Glass */
+.mp-theme-soft-09,
+.mp-theme-soft-deep-glass {
+  --mp-theme-bg: var(--mp-mauve-050);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-sage-400);
+}
+
+/* 10. Royal Bloom */
+.mp-theme-soft-10,
+.mp-theme-soft-royal-bloom {
+  --mp-theme-bg: var(--mp-sand-075);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-mauve-650);
+  --mp-theme-accent: var(--mp-coral-400);
+}
+
+/* 11. Calm Lagoon */
+.mp-theme-soft-11,
+.mp-theme-soft-calm-lagoon {
+  --mp-theme-bg: var(--mp-aqua-100);
+  --mp-theme-surface: var(--mp-ivory-025);
+  --mp-theme-primary: var(--mp-blue-800);
+  --mp-theme-accent: var(--mp-cyan-400);
+}
+
+/* 12. Studio Dune */
+.mp-theme-soft-12,
+.mp-theme-soft-studio-dune {
+  --mp-theme-bg: var(--mp-rose-025);
+  --mp-theme-surface: var(--mp-gray-075);
+  --mp-theme-primary: var(--mp-olive-750);
+  --mp-theme-accent: var(--mp-pink-400);
+}
+
+/* 13. Silk Field */
+.mp-theme-soft-13,
+.mp-theme-soft-silk-field {
+  --mp-theme-bg: var(--mp-mint-050);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 14. Stone Noir */
+.mp-theme-soft-14,
+.mp-theme-soft-stone-noir {
+  --mp-theme-bg: var(--mp-sage-075);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-rose-650);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 15. Cloud Echo */
+.mp-theme-soft-15,
+.mp-theme-soft-cloud-echo {
+  --mp-theme-bg: var(--mp-sky-100);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-burgundy-800);
+  --mp-theme-accent: var(--mp-sky-400);
+}
+
+/* 16. Moon Ink */
+.mp-theme-soft-16,
+.mp-theme-soft-moon-ink {
+  --mp-theme-bg: var(--mp-cream-025);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-teal-750);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 17. Forest Slate */
+.mp-theme-soft-17,
+.mp-theme-soft-forest-slate {
+  --mp-theme-bg: var(--mp-mauve-050);
+  --mp-theme-surface: var(--mp-ivory-025);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-sage-400);
+}
+
+/* 18. Desert Crown */
+.mp-theme-soft-18,
+.mp-theme-soft-desert-crown {
+  --mp-theme-bg: var(--mp-sand-075);
+  --mp-theme-surface: var(--mp-gray-075);
+  --mp-theme-primary: var(--mp-mauve-650);
+  --mp-theme-accent: var(--mp-coral-400);
+}
+
+/* 19. Coastal Vale */
+.mp-theme-soft-19,
+.mp-theme-soft-coastal-vale {
+  --mp-theme-bg: var(--mp-aqua-100);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-blue-800);
+  --mp-theme-accent: var(--mp-cyan-400);
+}
+
+/* 20. Amber Veil */
+.mp-theme-soft-20,
+.mp-theme-soft-amber-veil {
+  --mp-theme-bg: var(--mp-rose-025);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-olive-750);
+  --mp-theme-accent: var(--mp-pink-400);
+}
+
+/* 21. Midnight Linen */
+.mp-theme-soft-21,
+.mp-theme-soft-midnight-linen {
+  --mp-theme-bg: var(--mp-mint-050);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 22. Pearl Gold */
+.mp-theme-soft-22,
+.mp-theme-soft-pearl-gold {
+  --mp-theme-bg: var(--mp-sage-075);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-rose-650);
+  --mp-theme-accent: var(--mp-amber-400);
+}
+
+/* 23. Cedar Glow */
+.mp-theme-soft-23,
+.mp-theme-soft-cedar-glow {
+  --mp-theme-bg: var(--mp-sky-100);
+  --mp-theme-surface: var(--mp-ivory-025);
+  --mp-theme-primary: var(--mp-burgundy-800);
+  --mp-theme-accent: var(--mp-sky-400);
+}
+
+/* 24. Mist Horizon */
+.mp-theme-soft-24,
+.mp-theme-soft-mist-horizon {
+  --mp-theme-bg: var(--mp-cream-025);
+  --mp-theme-surface: var(--mp-gray-075);
+  --mp-theme-primary: var(--mp-teal-750);
+  --mp-theme-accent: var(--mp-gold-400);
+}
+
+/* 25. Aurora Dawn */
+.mp-theme-soft-25,
+.mp-theme-soft-aurora-dawn {
+  --mp-theme-bg: var(--mp-mauve-050);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-sage-400);
+}
+
+
+/* ========================================================
+   EARTHY THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Tide */
+.mp-theme-earthy-01,
+.mp-theme-earthy-ocean-tide {
+  --mp-theme-bg: var(--mp-sand-050);
+  --mp-theme-surface: var(--mp-sand-075);
+  --mp-theme-primary: var(--mp-brown-750);
+  --mp-theme-accent: var(--mp-gold-500);
+}
+
+/* 02. Quiet Mist */
+.mp-theme-earthy-02,
+.mp-theme-earthy-quiet-mist {
+  --mp-theme-bg: var(--mp-cream-075);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-rose-500);
+}
+
+/* 03. Modern Grove */
+.mp-theme-earthy-03,
+.mp-theme-earthy-modern-grove {
+  --mp-theme-bg: var(--mp-taupe-100);
+  --mp-theme-surface: var(--mp-sand-100);
+  --mp-theme-primary: var(--mp-brown-825);
+  --mp-theme-accent: var(--mp-mint-500);
+}
+
+/* 04. Velvet Air */
+.mp-theme-earthy-04,
+.mp-theme-earthy-velvet-air {
+  --mp-theme-bg: var(--mp-stone-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-sage-800);
+  --mp-theme-accent: var(--mp-orange-500);
+}
+
+/* 05. Nordic Glass */
+.mp-theme-earthy-05,
+.mp-theme-earthy-nordic-glass {
+  --mp-theme-bg: var(--mp-sage-050);
+  --mp-theme-surface: var(--mp-sand-050);
+  --mp-theme-primary: var(--mp-brown-750);
+  --mp-theme-accent: var(--mp-coral-500);
+}
+
+/* 06. Urban Bloom */
+.mp-theme-earthy-06,
+.mp-theme-earthy-urban-bloom {
+  --mp-theme-bg: var(--mp-olive-075);
+  --mp-theme-surface: var(--mp-ivory-100);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-amber-500);
+}
+
+/* 07. Pure Lagoon */
+.mp-theme-earthy-07,
+.mp-theme-earthy-pure-lagoon {
+  --mp-theme-bg: var(--mp-sand-100);
+  --mp-theme-surface: var(--mp-sand-075);
+  --mp-theme-primary: var(--mp-brown-825);
+  --mp-theme-accent: var(--mp-gold-500);
+}
+
+/* 08. Soft Dune */
+.mp-theme-earthy-08,
+.mp-theme-earthy-soft-dune {
+  --mp-theme-bg: var(--mp-cream-025);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-sage-800);
+  --mp-theme-accent: var(--mp-rose-500);
+}
+
+/* 09. Deep Field */
+.mp-theme-earthy-09,
+.mp-theme-earthy-deep-field {
+  --mp-theme-bg: var(--mp-taupe-050);
+  --mp-theme-surface: var(--mp-sand-100);
+  --mp-theme-primary: var(--mp-brown-750);
+  --mp-theme-accent: var(--mp-mint-500);
+}
+
+/* 10. Royal Noir */
+.mp-theme-earthy-10,
+.mp-theme-earthy-royal-noir {
+  --mp-theme-bg: var(--mp-stone-075);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-orange-500);
+}
+
+/* 11. Calm Echo */
+.mp-theme-earthy-11,
+.mp-theme-earthy-calm-echo {
+  --mp-theme-bg: var(--mp-sage-100);
+  --mp-theme-surface: var(--mp-sand-050);
+  --mp-theme-primary: var(--mp-brown-825);
+  --mp-theme-accent: var(--mp-coral-500);
+}
+
+/* 12. Studio Ink */
+.mp-theme-earthy-12,
+.mp-theme-earthy-studio-ink {
+  --mp-theme-bg: var(--mp-olive-025);
+  --mp-theme-surface: var(--mp-ivory-100);
+  --mp-theme-primary: var(--mp-sage-800);
+  --mp-theme-accent: var(--mp-amber-500);
+}
+
+/* 13. Silk Slate */
+.mp-theme-earthy-13,
+.mp-theme-earthy-silk-slate {
+  --mp-theme-bg: var(--mp-sand-050);
+  --mp-theme-surface: var(--mp-sand-075);
+  --mp-theme-primary: var(--mp-brown-750);
+  --mp-theme-accent: var(--mp-gold-500);
+}
+
+/* 14. Stone Crown */
+.mp-theme-earthy-14,
+.mp-theme-earthy-stone-crown {
+  --mp-theme-bg: var(--mp-cream-075);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-rose-500);
+}
+
+/* 15. Cloud Vale */
+.mp-theme-earthy-15,
+.mp-theme-earthy-cloud-vale {
+  --mp-theme-bg: var(--mp-taupe-100);
+  --mp-theme-surface: var(--mp-sand-100);
+  --mp-theme-primary: var(--mp-brown-825);
+  --mp-theme-accent: var(--mp-mint-500);
+}
+
+/* 16. Moon Veil */
+.mp-theme-earthy-16,
+.mp-theme-earthy-moon-veil {
+  --mp-theme-bg: var(--mp-stone-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-sage-800);
+  --mp-theme-accent: var(--mp-orange-500);
+}
+
+/* 17. Forest Linen */
+.mp-theme-earthy-17,
+.mp-theme-earthy-forest-linen {
+  --mp-theme-bg: var(--mp-sage-050);
+  --mp-theme-surface: var(--mp-sand-050);
+  --mp-theme-primary: var(--mp-brown-750);
+  --mp-theme-accent: var(--mp-coral-500);
+}
+
+/* 18. Desert Gold */
+.mp-theme-earthy-18,
+.mp-theme-earthy-desert-gold {
+  --mp-theme-bg: var(--mp-olive-075);
+  --mp-theme-surface: var(--mp-ivory-100);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-amber-500);
+}
+
+/* 19. Coastal Glow */
+.mp-theme-earthy-19,
+.mp-theme-earthy-coastal-glow {
+  --mp-theme-bg: var(--mp-sand-100);
+  --mp-theme-surface: var(--mp-sand-075);
+  --mp-theme-primary: var(--mp-brown-825);
+  --mp-theme-accent: var(--mp-gold-500);
+}
+
+/* 20. Amber Horizon */
+.mp-theme-earthy-20,
+.mp-theme-earthy-amber-horizon {
+  --mp-theme-bg: var(--mp-cream-025);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-sage-800);
+  --mp-theme-accent: var(--mp-rose-500);
+}
+
+/* 21. Midnight Dawn */
+.mp-theme-earthy-21,
+.mp-theme-earthy-midnight-dawn {
+  --mp-theme-bg: var(--mp-taupe-050);
+  --mp-theme-surface: var(--mp-sand-100);
+  --mp-theme-primary: var(--mp-brown-750);
+  --mp-theme-accent: var(--mp-mint-500);
+}
+
+/* 22. Pearl Ember */
+.mp-theme-earthy-22,
+.mp-theme-earthy-pearl-ember {
+  --mp-theme-bg: var(--mp-stone-075);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-sage-700);
+  --mp-theme-accent: var(--mp-orange-500);
+}
+
+/* 23. Cedar Wood */
+.mp-theme-earthy-23,
+.mp-theme-earthy-cedar-wood {
+  --mp-theme-bg: var(--mp-sage-100);
+  --mp-theme-surface: var(--mp-sand-050);
+  --mp-theme-primary: var(--mp-brown-825);
+  --mp-theme-accent: var(--mp-coral-500);
+}
+
+/* 24. Mist Harbor */
+.mp-theme-earthy-24,
+.mp-theme-earthy-mist-harbor {
+  --mp-theme-bg: var(--mp-olive-025);
+  --mp-theme-surface: var(--mp-ivory-100);
+  --mp-theme-primary: var(--mp-sage-800);
+  --mp-theme-accent: var(--mp-amber-500);
+}
+
+/* 25. Aurora Canvas */
+.mp-theme-earthy-25,
+.mp-theme-earthy-aurora-canvas {
+  --mp-theme-bg: var(--mp-sand-050);
+  --mp-theme-surface: var(--mp-sand-075);
+  --mp-theme-primary: var(--mp-brown-750);
+  --mp-theme-accent: var(--mp-gold-500);
+}
+
+
+/* ========================================================
+   OCEAN THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Glass */
+.mp-theme-ocean-01,
+.mp-theme-ocean-ocean-glass {
+  --mp-theme-bg: var(--mp-cyan-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-teal-700);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 02. Quiet Bloom */
+.mp-theme-ocean-02,
+.mp-theme-ocean-quiet-bloom {
+  --mp-theme-bg: var(--mp-snow-075);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-navy-825);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 03. Modern Lagoon */
+.mp-theme-ocean-03,
+.mp-theme-ocean-modern-lagoon {
+  --mp-theme-bg: var(--mp-slate-100);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 04. Velvet Dune */
+.mp-theme-ocean-04,
+.mp-theme-ocean-velvet-dune {
+  --mp-theme-bg: var(--mp-sky-025);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-blue-650);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 05. Nordic Field */
+.mp-theme-ocean-05,
+.mp-theme-ocean-nordic-field {
+  --mp-theme-bg: var(--mp-aqua-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-cyan-800);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 06. Urban Noir */
+.mp-theme-ocean-06,
+.mp-theme-ocean-urban-noir {
+  --mp-theme-bg: var(--mp-cyan-075);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-teal-700);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 07. Pure Echo */
+.mp-theme-ocean-07,
+.mp-theme-ocean-pure-echo {
+  --mp-theme-bg: var(--mp-snow-100);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-navy-825);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 08. Soft Ink */
+.mp-theme-ocean-08,
+.mp-theme-ocean-soft-ink {
+  --mp-theme-bg: var(--mp-slate-025);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 09. Deep Slate */
+.mp-theme-ocean-09,
+.mp-theme-ocean-deep-slate {
+  --mp-theme-bg: var(--mp-sky-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-blue-650);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 10. Royal Crown */
+.mp-theme-ocean-10,
+.mp-theme-ocean-royal-crown {
+  --mp-theme-bg: var(--mp-aqua-075);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-cyan-800);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 11. Calm Vale */
+.mp-theme-ocean-11,
+.mp-theme-ocean-calm-vale {
+  --mp-theme-bg: var(--mp-cyan-100);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-teal-700);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 12. Studio Veil */
+.mp-theme-ocean-12,
+.mp-theme-ocean-studio-veil {
+  --mp-theme-bg: var(--mp-snow-025);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-navy-825);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 13. Silk Linen */
+.mp-theme-ocean-13,
+.mp-theme-ocean-silk-linen {
+  --mp-theme-bg: var(--mp-slate-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 14. Stone Gold */
+.mp-theme-ocean-14,
+.mp-theme-ocean-stone-gold {
+  --mp-theme-bg: var(--mp-sky-075);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-blue-650);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 15. Cloud Glow */
+.mp-theme-ocean-15,
+.mp-theme-ocean-cloud-glow {
+  --mp-theme-bg: var(--mp-aqua-100);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-cyan-800);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 16. Moon Horizon */
+.mp-theme-ocean-16,
+.mp-theme-ocean-moon-horizon {
+  --mp-theme-bg: var(--mp-cyan-025);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-teal-700);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 17. Forest Dawn */
+.mp-theme-ocean-17,
+.mp-theme-ocean-forest-dawn {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-navy-825);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 18. Desert Ember */
+.mp-theme-ocean-18,
+.mp-theme-ocean-desert-ember {
+  --mp-theme-bg: var(--mp-slate-075);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 19. Coastal Wood */
+.mp-theme-ocean-19,
+.mp-theme-ocean-coastal-wood {
+  --mp-theme-bg: var(--mp-sky-100);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-blue-650);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 20. Amber Harbor */
+.mp-theme-ocean-20,
+.mp-theme-ocean-amber-harbor {
+  --mp-theme-bg: var(--mp-aqua-025);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-cyan-800);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 21. Midnight Canvas */
+.mp-theme-ocean-21,
+.mp-theme-ocean-midnight-canvas {
+  --mp-theme-bg: var(--mp-cyan-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-teal-700);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 22. Pearl Tide */
+.mp-theme-ocean-22,
+.mp-theme-ocean-pearl-tide {
+  --mp-theme-bg: var(--mp-snow-075);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-navy-825);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 23. Cedar Mist */
+.mp-theme-ocean-23,
+.mp-theme-ocean-cedar-mist {
+  --mp-theme-bg: var(--mp-slate-100);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 24. Mist Grove */
+.mp-theme-ocean-24,
+.mp-theme-ocean-mist-grove {
+  --mp-theme-bg: var(--mp-sky-025);
+  --mp-theme-surface: var(--mp-sky-100);
+  --mp-theme-primary: var(--mp-blue-650);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+/* 25. Aurora Air */
+.mp-theme-ocean-25,
+.mp-theme-ocean-aurora-air {
+  --mp-theme-bg: var(--mp-aqua-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-cyan-800);
+  --mp-theme-accent: var(--mp-sky-450);
+}
+
+
+/* ========================================================
+   WARM THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Field */
+.mp-theme-warm-01,
+.mp-theme-warm-ocean-field {
+  --mp-theme-bg: var(--mp-rose-050);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-cocoa-700);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 02. Quiet Noir */
+.mp-theme-warm-02,
+.mp-theme-warm-quiet-noir {
+  --mp-theme-bg: var(--mp-coral-075);
+  --mp-theme-surface: var(--mp-ivory-025);
+  --mp-theme-primary: var(--mp-burgundy-650);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 03. Modern Echo */
+.mp-theme-warm-03,
+.mp-theme-warm-modern-echo {
+  --mp-theme-bg: var(--mp-cream-100);
+  --mp-theme-surface: var(--mp-snow-075);
+  --mp-theme-primary: var(--mp-coral-800);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 04. Velvet Ink */
+.mp-theme-warm-04,
+.mp-theme-warm-velvet-ink {
+  --mp-theme-bg: var(--mp-sand-025);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-orange-750);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 05. Nordic Slate */
+.mp-theme-warm-05,
+.mp-theme-warm-nordic-slate {
+  --mp-theme-bg: var(--mp-ivory-050);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-red-700);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 06. Urban Crown */
+.mp-theme-warm-06,
+.mp-theme-warm-urban-crown {
+  --mp-theme-bg: var(--mp-rose-075);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-cocoa-650);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 07. Pure Vale */
+.mp-theme-warm-07,
+.mp-theme-warm-pure-vale {
+  --mp-theme-bg: var(--mp-coral-100);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-burgundy-800);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 08. Soft Veil */
+.mp-theme-warm-08,
+.mp-theme-warm-soft-veil {
+  --mp-theme-bg: var(--mp-cream-025);
+  --mp-theme-surface: var(--mp-ivory-025);
+  --mp-theme-primary: var(--mp-coral-750);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 09. Deep Linen */
+.mp-theme-warm-09,
+.mp-theme-warm-deep-linen {
+  --mp-theme-bg: var(--mp-sand-050);
+  --mp-theme-surface: var(--mp-snow-075);
+  --mp-theme-primary: var(--mp-orange-700);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 10. Royal Gold */
+.mp-theme-warm-10,
+.mp-theme-warm-royal-gold {
+  --mp-theme-bg: var(--mp-ivory-075);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-red-650);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 11. Calm Glow */
+.mp-theme-warm-11,
+.mp-theme-warm-calm-glow {
+  --mp-theme-bg: var(--mp-rose-100);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-cocoa-800);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 12. Studio Horizon */
+.mp-theme-warm-12,
+.mp-theme-warm-studio-horizon {
+  --mp-theme-bg: var(--mp-coral-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-burgundy-750);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 13. Silk Dawn */
+.mp-theme-warm-13,
+.mp-theme-warm-silk-dawn {
+  --mp-theme-bg: var(--mp-cream-050);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-coral-700);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 14. Stone Ember */
+.mp-theme-warm-14,
+.mp-theme-warm-stone-ember {
+  --mp-theme-bg: var(--mp-sand-075);
+  --mp-theme-surface: var(--mp-ivory-025);
+  --mp-theme-primary: var(--mp-orange-650);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 15. Cloud Wood */
+.mp-theme-warm-15,
+.mp-theme-warm-cloud-wood {
+  --mp-theme-bg: var(--mp-ivory-100);
+  --mp-theme-surface: var(--mp-snow-075);
+  --mp-theme-primary: var(--mp-red-800);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 16. Moon Harbor */
+.mp-theme-warm-16,
+.mp-theme-warm-moon-harbor {
+  --mp-theme-bg: var(--mp-rose-025);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-cocoa-750);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 17. Forest Canvas */
+.mp-theme-warm-17,
+.mp-theme-warm-forest-canvas {
+  --mp-theme-bg: var(--mp-coral-050);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-burgundy-700);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 18. Desert Tide */
+.mp-theme-warm-18,
+.mp-theme-warm-desert-tide {
+  --mp-theme-bg: var(--mp-cream-075);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-coral-650);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 19. Coastal Mist */
+.mp-theme-warm-19,
+.mp-theme-warm-coastal-mist {
+  --mp-theme-bg: var(--mp-sand-100);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-orange-800);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 20. Amber Grove */
+.mp-theme-warm-20,
+.mp-theme-warm-amber-grove {
+  --mp-theme-bg: var(--mp-ivory-025);
+  --mp-theme-surface: var(--mp-ivory-025);
+  --mp-theme-primary: var(--mp-red-750);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 21. Midnight Air */
+.mp-theme-warm-21,
+.mp-theme-warm-midnight-air {
+  --mp-theme-bg: var(--mp-rose-050);
+  --mp-theme-surface: var(--mp-snow-075);
+  --mp-theme-primary: var(--mp-cocoa-700);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 22. Pearl Glass */
+.mp-theme-warm-22,
+.mp-theme-warm-pearl-glass {
+  --mp-theme-bg: var(--mp-coral-075);
+  --mp-theme-surface: var(--mp-ivory-050);
+  --mp-theme-primary: var(--mp-burgundy-650);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 23. Cedar Bloom */
+.mp-theme-warm-23,
+.mp-theme-warm-cedar-bloom {
+  --mp-theme-bg: var(--mp-cream-100);
+  --mp-theme-surface: var(--mp-snow-025);
+  --mp-theme-primary: var(--mp-coral-800);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 24. Mist Lagoon */
+.mp-theme-warm-24,
+.mp-theme-warm-mist-lagoon {
+  --mp-theme-bg: var(--mp-sand-025);
+  --mp-theme-surface: var(--mp-ivory-075);
+  --mp-theme-primary: var(--mp-orange-750);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 25. Aurora Dune */
+.mp-theme-warm-25,
+.mp-theme-warm-aurora-dune {
+  --mp-theme-bg: var(--mp-ivory-050);
+  --mp-theme-surface: var(--mp-snow-050);
+  --mp-theme-primary: var(--mp-red-700);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+
+/* ========================================================
+   CREATIVE THEMES — 25
+   ======================================================== */
+
+/* 01. Ocean Slate */
+.mp-theme-creative-01,
+.mp-theme-creative-ocean-slate {
+  --mp-theme-bg: var(--mp-mint-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-royal-blue-650);
+  --mp-theme-accent: var(--mp-coral-450);
+}
+
+/* 02. Quiet Crown */
+.mp-theme-creative-02,
+.mp-theme-creative-quiet-crown {
+  --mp-theme-bg: var(--mp-snow-075);
+  --mp-theme-surface: var(--mp-cream-025);
+  --mp-theme-primary: var(--mp-purple-600);
+  --mp-theme-accent: var(--mp-lime-400);
+}
+
+/* 03. Modern Vale */
+.mp-theme-creative-03,
+.mp-theme-creative-modern-vale {
+  --mp-theme-bg: var(--mp-ivory-100);
+  --mp-theme-surface: var(--mp-gray-075);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-mint-350);
+}
+
+/* 04. Velvet Veil */
+.mp-theme-creative-04,
+.mp-theme-creative-velvet-veil {
+  --mp-theme-bg: var(--mp-mauve-025);
+  --mp-theme-surface: var(--mp-cream-050);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-gold-550);
+}
+
+/* 05. Nordic Linen */
+.mp-theme-creative-05,
+.mp-theme-creative-nordic-linen {
+  --mp-theme-bg: var(--mp-sky-050);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-royal-blue-650);
+  --mp-theme-accent: var(--mp-cyan-500);
+}
+
+/* 06. Urban Gold */
+.mp-theme-creative-06,
+.mp-theme-creative-urban-gold {
+  --mp-theme-bg: var(--mp-mint-075);
+  --mp-theme-surface: var(--mp-cream-075);
+  --mp-theme-primary: var(--mp-purple-600);
+  --mp-theme-accent: var(--mp-rose-450);
+}
+
+/* 07. Pure Glow */
+.mp-theme-creative-07,
+.mp-theme-creative-pure-glow {
+  --mp-theme-bg: var(--mp-snow-100);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-orange-400);
+}
+
+/* 08. Soft Horizon */
+.mp-theme-creative-08,
+.mp-theme-creative-soft-horizon {
+  --mp-theme-bg: var(--mp-ivory-025);
+  --mp-theme-surface: var(--mp-cream-025);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-coral-350);
+}
+
+/* 09. Deep Dawn */
+.mp-theme-creative-09,
+.mp-theme-creative-deep-dawn {
+  --mp-theme-bg: var(--mp-mauve-050);
+  --mp-theme-surface: var(--mp-gray-075);
+  --mp-theme-primary: var(--mp-royal-blue-650);
+  --mp-theme-accent: var(--mp-lime-550);
+}
+
+/* 10. Royal Ember */
+.mp-theme-creative-10,
+.mp-theme-creative-royal-ember {
+  --mp-theme-bg: var(--mp-sky-075);
+  --mp-theme-surface: var(--mp-cream-050);
+  --mp-theme-primary: var(--mp-purple-600);
+  --mp-theme-accent: var(--mp-mint-500);
+}
+
+/* 11. Calm Wood */
+.mp-theme-creative-11,
+.mp-theme-creative-calm-wood {
+  --mp-theme-bg: var(--mp-mint-100);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-gold-450);
+}
+
+/* 12. Studio Harbor */
+.mp-theme-creative-12,
+.mp-theme-creative-studio-harbor {
+  --mp-theme-bg: var(--mp-snow-025);
+  --mp-theme-surface: var(--mp-cream-075);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-cyan-400);
+}
+
+/* 13. Silk Canvas */
+.mp-theme-creative-13,
+.mp-theme-creative-silk-canvas {
+  --mp-theme-bg: var(--mp-ivory-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-royal-blue-650);
+  --mp-theme-accent: var(--mp-rose-350);
+}
+
+/* 14. Stone Tide */
+.mp-theme-creative-14,
+.mp-theme-creative-stone-tide {
+  --mp-theme-bg: var(--mp-mauve-075);
+  --mp-theme-surface: var(--mp-cream-025);
+  --mp-theme-primary: var(--mp-purple-600);
+  --mp-theme-accent: var(--mp-orange-550);
+}
+
+/* 15. Cloud Mist */
+.mp-theme-creative-15,
+.mp-theme-creative-cloud-mist {
+  --mp-theme-bg: var(--mp-sky-100);
+  --mp-theme-surface: var(--mp-gray-075);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-coral-500);
+}
+
+/* 16. Moon Grove */
+.mp-theme-creative-16,
+.mp-theme-creative-moon-grove {
+  --mp-theme-bg: var(--mp-mint-025);
+  --mp-theme-surface: var(--mp-cream-050);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-lime-450);
+}
+
+/* 17. Forest Air */
+.mp-theme-creative-17,
+.mp-theme-creative-forest-air {
+  --mp-theme-bg: var(--mp-snow-050);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-royal-blue-650);
+  --mp-theme-accent: var(--mp-mint-400);
+}
+
+/* 18. Desert Glass */
+.mp-theme-creative-18,
+.mp-theme-creative-desert-glass {
+  --mp-theme-bg: var(--mp-ivory-075);
+  --mp-theme-surface: var(--mp-cream-075);
+  --mp-theme-primary: var(--mp-purple-600);
+  --mp-theme-accent: var(--mp-gold-350);
+}
+
+/* 19. Coastal Bloom */
+.mp-theme-creative-19,
+.mp-theme-creative-coastal-bloom {
+  --mp-theme-bg: var(--mp-mauve-100);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-cyan-550);
+}
+
+/* 20. Amber Lagoon */
+.mp-theme-creative-20,
+.mp-theme-creative-amber-lagoon {
+  --mp-theme-bg: var(--mp-sky-025);
+  --mp-theme-surface: var(--mp-cream-025);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-rose-500);
+}
+
+/* 21. Midnight Dune */
+.mp-theme-creative-21,
+.mp-theme-creative-midnight-dune {
+  --mp-theme-bg: var(--mp-mint-050);
+  --mp-theme-surface: var(--mp-gray-075);
+  --mp-theme-primary: var(--mp-royal-blue-650);
+  --mp-theme-accent: var(--mp-orange-450);
+}
+
+/* 22. Pearl Field */
+.mp-theme-creative-22,
+.mp-theme-creative-pearl-field {
+  --mp-theme-bg: var(--mp-snow-075);
+  --mp-theme-surface: var(--mp-cream-050);
+  --mp-theme-primary: var(--mp-purple-600);
+  --mp-theme-accent: var(--mp-coral-400);
+}
+
+/* 23. Cedar Noir */
+.mp-theme-creative-23,
+.mp-theme-creative-cedar-noir {
+  --mp-theme-bg: var(--mp-ivory-100);
+  --mp-theme-surface: var(--mp-gray-025);
+  --mp-theme-primary: var(--mp-royal-blue-750);
+  --mp-theme-accent: var(--mp-lime-350);
+}
+
+/* 24. Mist Echo */
+.mp-theme-creative-24,
+.mp-theme-creative-mist-echo {
+  --mp-theme-bg: var(--mp-mauve-025);
+  --mp-theme-surface: var(--mp-cream-075);
+  --mp-theme-primary: var(--mp-purple-700);
+  --mp-theme-accent: var(--mp-mint-550);
+}
+
+/* 25. Aurora Ink */
+.mp-theme-creative-25,
+.mp-theme-creative-aurora-ink {
+  --mp-theme-bg: var(--mp-sky-050);
+  --mp-theme-surface: var(--mp-gray-050);
+  --mp-theme-primary: var(--mp-royal-blue-650);
+  --mp-theme-accent: var(--mp-gold-500);
+}
